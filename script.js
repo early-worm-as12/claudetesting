@@ -223,14 +223,43 @@ modalOverlay.addEventListener("click", (evt) => {
 
 // ---------- Insights charts ----------
 
+const activitySelect = document.getElementById("activity-select");
+const insightsSummary = document.getElementById("insights-summary");
+
+function getActivityFilteredAlbums() {
+  const monthsBack = activitySelect.value;
+  if (monthsBack === "all") return ALBUMS;
+
+  const cutoff = new Date();
+  cutoff.setMonth(cutoff.getMonth() - Number(monthsBack));
+  const cutoffISO = cutoff.toISOString().slice(0, 10);
+
+  return ALBUMS.filter((a) => a.releaseDateISO && a.releaseDateISO >= cutoffISO);
+}
+
 function renderInsights() {
+  const albums = getActivityFilteredAlbums();
+  const label = activitySelect.options[activitySelect.selectedIndex].text;
+
+  insightsSummary.textContent =
+    activitySelect.value === "all"
+      ? `Showing all ${albums.length} albums.`
+      : `Showing ${albums.length} album${albums.length === 1 ? "" : "s"} released in the ${label.toLowerCase()}.`;
+
+  if (albums.length === 0) {
+    for (const id of ["chart-by-year", "chart-top-genres", "chart-top-artists", "chart-score-trend"]) {
+      document.getElementById(id).innerHTML = `<p class="chart-empty">No albums in this range.</p>`;
+    }
+    return;
+  }
+
   const byYearMap = new Map();
   const genreMap = new Map();
   const artistMap = new Map();
   const scoreSumByYear = new Map();
   const scoreCountByYear = new Map();
 
-  for (const a of ALBUMS) {
+  for (const a of albums) {
     byYearMap.set(a.year, (byYearMap.get(a.year) || 0) + 1);
     if (a.genre1) genreMap.set(a.genre1, (genreMap.get(a.genre1) || 0) + 1);
     artistMap.set(a.artist, (artistMap.get(a.artist) || 0) + 1);
@@ -271,6 +300,8 @@ function renderInsights() {
     })),
   });
 }
+
+activitySelect.addEventListener("change", renderInsights);
 
 // ---------- Wire up events ----------
 

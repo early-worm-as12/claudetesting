@@ -22,7 +22,19 @@
   </section>
 
   <section class="insights">
-    <h2 class="section-title">Insights</h2>
+    <div class="insights-header">
+      <h2 class="section-title">Insights</h2>
+      <div class="activity-filter">
+        <label for="activity-select">Time range</label>
+        <select id="activity-select">
+          <option value="all">All time</option>
+          <option value="12">Last 12 months</option>
+          <option value="24">Last 2 years</option>
+          <option value="60">Last 5 years</option>
+        </select>
+      </div>
+    </div>
+    <p class="insights-summary" id="insights-summary"></p>
     <div class="chart-grid">
       <div class="chart-card" id="chart-by-year"></div>
       <div class="chart-card" id="chart-top-genres"></div>

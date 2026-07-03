@@ -137,11 +137,58 @@ body {
   padding: 0 1.5rem;
 }
 
+.insights-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.4rem;
+}
+
 .section-title {
   text-align: center;
   font-size: 1.3rem;
-  margin-bottom: 1rem;
   color: var(--text);
+  margin: 0;
+}
+
+.activity-filter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.activity-filter label {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.activity-filter select {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.4rem 0.7rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.activity-filter select:focus {
+  outline: 2px solid var(--accent-2);
+}
+
+.insights-summary {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  margin: 0 0 1rem;
+}
+
+.chart-empty {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 2rem 0;
 }
 
 .chart-grid {

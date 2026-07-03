@@ -11,7 +11,8 @@ const ALBUMS = [
     "genre2": "Pop Punk",
     "duration": "0:44:37",
     "favoriteSong": "Low Tide",
-    "releaseDate": "Sep 23, 2022"
+    "releaseDate": "Sep 23, 2022",
+    "releaseDateISO": "2022-09-23"
   },
   {
     "rank": 2,
@@ -25,7 +26,8 @@ const ALBUMS = [
     "genre2": "Metalcore",
     "duration": "0:51:17",
     "favoriteSong": "All This And War",
-    "releaseDate": "Oct 22, 2021"
+    "releaseDate": "Oct 22, 2021",
+    "releaseDateISO": "2021-10-22"
   },
   {
     "rank": 3,
@@ -39,7 +41,8 @@ const ALBUMS = [
     "genre2": "Power Pop",
     "duration": "0:44:59",
     "favoriteSong": "Silence Is Golden",
-    "releaseDate": "Sep 16, 2022"
+    "releaseDate": "Sep 16, 2022",
+    "releaseDateISO": "2022-09-16"
   },
   {
     "rank": 4,
@@ -53,7 +56,8 @@ const ALBUMS = [
     "genre2": "Midwest Emo",
     "duration": "0:43:55",
     "favoriteSong": "How Did It Use to Be So Easy?",
-    "releaseDate": "Jan 1, 2023"
+    "releaseDate": "Jan 1, 2023",
+    "releaseDateISO": "2023-01-01"
   },
   {
     "rank": 5,
@@ -67,7 +71,8 @@ const ALBUMS = [
     "genre2": "Singer-Songwriter",
     "duration": "0:42:44",
     "favoriteSong": "Ringside",
-    "releaseDate": "Feb 26, 2021"
+    "releaseDate": "Feb 26, 2021",
+    "releaseDateISO": "2021-02-26"
   },
   {
     "rank": 6,
@@ -81,7 +86,8 @@ const ALBUMS = [
     "genre2": "Folk Punk",
     "duration": "0:52:39",
     "favoriteSong": "bus beat",
-    "releaseDate": "Aug 21, 2020"
+    "releaseDate": "Aug 21, 2020",
+    "releaseDateISO": "2020-08-21"
   },
   {
     "rank": 7,
@@ -95,7 +101,8 @@ const ALBUMS = [
     "genre2": "Indie Rock",
     "duration": "0:37:10",
     "favoriteSong": "Luv L8r",
-    "releaseDate": "Feb 25, 2022"
+    "releaseDate": "Feb 25, 2022",
+    "releaseDateISO": "2022-02-25"
   },
   {
     "rank": 8,
@@ -109,7 +116,8 @@ const ALBUMS = [
     "genre2": "Indie Rock",
     "duration": "0:41:49",
     "favoriteSong": "Tanana",
-    "releaseDate": "Nov 7, 2025"
+    "releaseDate": "Nov 7, 2025",
+    "releaseDateISO": "2025-11-07"
   },
   {
     "rank": 9,
@@ -123,7 +131,8 @@ const ALBUMS = [
     "genre2": "Dream Pop",
     "duration": "0:40:46",
     "favoriteSong": "Foam",
-    "releaseDate": "Feb 16, 2024"
+    "releaseDate": "Feb 16, 2024",
+    "releaseDateISO": "2024-02-16"
   },
   {
     "rank": 10,
@@ -137,7 +146,8 @@ const ALBUMS = [
     "genre2": "Indie Rock",
     "duration": "1:00:06",
     "favoriteSong": "Love Me Different",
-    "releaseDate": "Nov 7, 2025"
+    "releaseDate": "Nov 7, 2025",
+    "releaseDateISO": "2025-11-07"
   },
   {
     "rank": 11,
@@ -151,7 +161,8 @@ const ALBUMS = [
     "genre2": "Alternative Rock",
     "duration": "0:50:03",
     "favoriteSong": "Turpentine",
-    "releaseDate": "Oct 27, 2023"
+    "releaseDate": "Oct 27, 2023",
+    "releaseDateISO": "2023-10-27"
   },
   {
     "rank": 12,
@@ -165,7 +176,8 @@ const ALBUMS = [
     "genre2": "Pop-Punk",
     "duration": "0:31:17",
     "favoriteSong": "SPS",
-    "releaseDate": "Mar 6, 2020"
+    "releaseDate": "Mar 6, 2020",
+    "releaseDateISO": "2020-03-06"
   },
   {
     "rank": 13,
@@ -179,7 +191,8 @@ const ALBUMS = [
     "genre2": "Indie Rock",
     "duration": "0:40:28",
     "favoriteSong": "Optimism (As a Radical Life Choice)",
-    "releaseDate": "Feb 7, 2020"
+    "releaseDate": "Feb 7, 2020",
+    "releaseDateISO": "2020-02-07"
   },
   {
     "rank": 14,
@@ -193,7 +206,8 @@ const ALBUMS = [
     "genre2": "Indie Pop",
     "duration": "0:43:41",
     "favoriteSong": "La Di Da",
-    "releaseDate": "Apr 8, 2022"
+    "releaseDate": "Apr 8, 2022",
+    "releaseDateISO": "2022-04-08"
   },
   {
     "rank": 15,
@@ -207,7 +221,8 @@ const ALBUMS = [
     "genre2": "Alternative Rock",
     "duration": "0:34:57",
     "favoriteSong": "MYSTERY",
-    "releaseDate": "Aug 27, 2021"
+    "releaseDate": "Aug 27, 2021",
+    "releaseDateISO": "2021-08-27"
   },
   {
     "rank": 16,
@@ -221,7 +236,8 @@ const ALBUMS = [
     "genre2": "Midwest Emo",
     "duration": "0:37:24",
     "favoriteSong": "Gans Media Retro Games",
-    "releaseDate": "May 12, 2023"
+    "releaseDate": "May 12, 2023",
+    "releaseDateISO": "2023-05-12"
   },
   {
     "rank": 17,
@@ -235,7 +251,8 @@ const ALBUMS = [
     "genre2": "Emo Punk",
     "duration": "0:40:16",
     "favoriteSong": "Take Me Back To Eden",
-    "releaseDate": "Jun 23, 2023"
+    "releaseDate": "Jun 23, 2023",
+    "releaseDateISO": "2023-06-23"
   },
   {
     "rank": 18,
@@ -249,7 +266,8 @@ const ALBUMS = [
     "genre2": "Noise Rap",
     "duration": "0:41:24",
     "favoriteSong": "either on or off the drugs",
-    "releaseDate": "Aug 1, 2024"
+    "releaseDate": "Aug 1, 2024",
+    "releaseDateISO": "2024-08-01"
   },
   {
     "rank": 19,
@@ -263,7 +281,8 @@ const ALBUMS = [
     "genre2": "Folk Rock",
     "duration": "0:50:40",
     "favoriteSong": "America, Girl",
-    "releaseDate": "Aug 22, 2025"
+    "releaseDate": "Aug 22, 2025",
+    "releaseDateISO": "2025-08-22"
   },
   {
     "rank": 20,
@@ -277,7 +296,8 @@ const ALBUMS = [
     "genre2": "Country Pop",
     "duration": "0:51:47",
     "favoriteSong": "Mourning",
-    "releaseDate": "Jul 28, 2023"
+    "releaseDate": "Jul 28, 2023",
+    "releaseDateISO": "2023-07-28"
   },
   {
     "rank": 21,
@@ -291,7 +311,8 @@ const ALBUMS = [
     "genre2": "Alt Rock",
     "duration": "0:45:58",
     "favoriteSong": "Keel Timing",
-    "releaseDate": "Apr 30, 2021"
+    "releaseDate": "Apr 30, 2021",
+    "releaseDateISO": "2021-04-30"
   },
   {
     "rank": 22,
@@ -305,7 +326,8 @@ const ALBUMS = [
     "genre2": "Electropop",
     "duration": "0:37:42",
     "favoriteSong": "Formidable",
-    "releaseDate": "May 21, 2021"
+    "releaseDate": "May 21, 2021",
+    "releaseDateISO": "2021-05-21"
   },
   {
     "rank": 23,
@@ -319,7 +341,8 @@ const ALBUMS = [
     "genre2": "Dream Pop",
     "duration": "0:37:03",
     "favoriteSong": "Posing For Cars",
-    "releaseDate": "Jun 4, 2021"
+    "releaseDate": "Jun 4, 2021",
+    "releaseDateISO": "2021-06-04"
   },
   {
     "rank": 24,
@@ -333,7 +356,8 @@ const ALBUMS = [
     "genre2": "Heartland Alt",
     "duration": "0:46:14",
     "favoriteSong": "Model Train Town",
-    "releaseDate": "Jul 11, 2025"
+    "releaseDate": "Jul 11, 2025",
+    "releaseDateISO": "2025-07-11"
   },
   {
     "rank": 25,
@@ -347,7 +371,8 @@ const ALBUMS = [
     "genre2": "Americana",
     "duration": "0:44:57",
     "favoriteSong": "I Can't Stop Drinking",
-    "releaseDate": "Sep 25, 2020"
+    "releaseDate": "Sep 25, 2020",
+    "releaseDateISO": "2020-09-25"
   },
   {
     "rank": 26,
@@ -361,7 +386,8 @@ const ALBUMS = [
     "genre2": "Synthpop",
     "duration": "0:45:13",
     "favoriteSong": "Mother Nature",
-    "releaseDate": "Feb 23, 2024"
+    "releaseDate": "Feb 23, 2024",
+    "releaseDateISO": "2024-02-23"
   },
   {
     "rank": 27,
@@ -375,7 +401,8 @@ const ALBUMS = [
     "genre2": "Indie Rock",
     "duration": "0:34:55",
     "favoriteSong": "Ram Dass Dick Pics",
-    "releaseDate": "Sep 17, 2021"
+    "releaseDate": "Sep 17, 2021",
+    "releaseDateISO": "2021-09-17"
   },
   {
     "rank": 28,
@@ -389,7 +416,8 @@ const ALBUMS = [
     "genre2": "Pop Punk",
     "duration": "0:51:21",
     "favoriteSong": "Isopropyl Alchemy",
-    "releaseDate": "Apr 30, 2021"
+    "releaseDate": "Apr 30, 2021",
+    "releaseDateISO": "2021-04-30"
   },
   {
     "rank": 29,
@@ -403,7 +431,8 @@ const ALBUMS = [
     "genre2": "Art Rock",
     "duration": "1:03:00",
     "favoriteSong": "DYWTYLM",
-    "releaseDate": "May 19, 2023"
+    "releaseDate": "May 19, 2023",
+    "releaseDateISO": "2023-05-19"
   },
   {
     "rank": 30,
@@ -417,7 +446,8 @@ const ALBUMS = [
     "genre2": "Rapcore",
     "duration": "0:39:14",
     "favoriteSong": "Gold Chain Punk (whogonbeatmyass?)",
-    "releaseDate": "Mar 25, 2022"
+    "releaseDate": "Mar 25, 2022",
+    "releaseDateISO": "2022-03-25"
   },
   {
     "rank": 31,
@@ -431,7 +461,8 @@ const ALBUMS = [
     "genre2": "Power Pop",
     "duration": "0:29:49",
     "favoriteSong": "Just Around The Corner",
-    "releaseDate": "Apr 25, 2025"
+    "releaseDate": "Apr 25, 2025",
+    "releaseDateISO": "2025-04-25"
   },
   {
     "rank": 32,
@@ -445,7 +476,8 @@ const ALBUMS = [
     "genre2": "Funk Rock",
     "duration": "0:37:29",
     "favoriteSong": "Skinny Ape",
-    "releaseDate": "Feb 24, 2023"
+    "releaseDate": "Feb 24, 2023",
+    "releaseDateISO": "2023-02-24"
   },
   {
     "rank": 33,
@@ -459,7 +491,8 @@ const ALBUMS = [
     "genre2": "Power Pop",
     "duration": "0:35:59",
     "favoriteSong": "Weeds",
-    "releaseDate": "Jul 22, 2022"
+    "releaseDate": "Jul 22, 2022",
+    "releaseDateISO": "2022-07-22"
   },
   {
     "rank": 34,
@@ -473,7 +506,8 @@ const ALBUMS = [
     "genre2": "Baroque Rock",
     "duration": "1:07:00",
     "favoriteSong": "All I Want Is You",
-    "releaseDate": "Jun 14, 2024"
+    "releaseDate": "Jun 14, 2024",
+    "releaseDateISO": "2024-06-14"
   },
   {
     "rank": 35,
@@ -487,7 +521,8 @@ const ALBUMS = [
     "genre2": "Alt Pop",
     "duration": "0:41:35",
     "favoriteSong": "I'll Be Okay",
-    "releaseDate": "Feb 7, 2025"
+    "releaseDate": "Feb 7, 2025",
+    "releaseDateISO": "2025-02-07"
   },
   {
     "rank": 36,
@@ -501,7 +536,8 @@ const ALBUMS = [
     "genre2": "Indie Rock",
     "duration": "0:43:49",
     "favoriteSong": "",
-    "releaseDate": "Apr 15, 2022"
+    "releaseDate": "Apr 15, 2022",
+    "releaseDateISO": "2022-04-15"
   },
   {
     "rank": 37,
@@ -515,7 +551,8 @@ const ALBUMS = [
     "genre2": "Alternative",
     "duration": "0:45:14",
     "favoriteSong": "SUNSHOWER",
-    "releaseDate": "Jun 6, 2025"
+    "releaseDate": "Jun 6, 2025",
+    "releaseDateISO": "2025-06-06"
   },
   {
     "rank": 38,
@@ -529,7 +566,8 @@ const ALBUMS = [
     "genre2": "Power Pop",
     "duration": "0:43:42",
     "favoriteSong": "Mother, Pray for Me",
-    "releaseDate": "Aug 29, 2025"
+    "releaseDate": "Aug 29, 2025",
+    "releaseDateISO": "2025-08-29"
   },
   {
     "rank": 39,
@@ -543,7 +581,8 @@ const ALBUMS = [
     "genre2": "Trap",
     "duration": "0:38:16",
     "favoriteSong": "Johnny Dang",
-    "releaseDate": "Jul 28, 2023"
+    "releaseDate": "Jul 28, 2023",
+    "releaseDateISO": "2023-07-28"
   },
   {
     "rank": 40,
@@ -557,7 +596,8 @@ const ALBUMS = [
     "genre2": "Folk Punk",
     "duration": "0:35:58",
     "favoriteSong": "Outlook",
-    "releaseDate": "Aug 4, 2023"
+    "releaseDate": "Aug 4, 2023",
+    "releaseDateISO": "2023-08-04"
   },
   {
     "rank": 41,
@@ -571,7 +611,8 @@ const ALBUMS = [
     "genre2": "Slowcore",
     "duration": "1:15:00",
     "favoriteSong": "Family Tree",
-    "releaseDate": "May 12, 2022"
+    "releaseDate": "May 12, 2022",
+    "releaseDateISO": "2022-05-12"
   },
   {
     "rank": 42,
@@ -585,7 +626,8 @@ const ALBUMS = [
     "genre2": "Americana",
     "duration": "0:53:59",
     "favoriteSong": "Bitin' List",
-    "releaseDate": "Jul 25, 2025"
+    "releaseDate": "Jul 25, 2025",
+    "releaseDateISO": "2025-07-25"
   },
   {
     "rank": 43,
@@ -599,7 +641,8 @@ const ALBUMS = [
     "genre2": "Alt Country",
     "duration": "0:37:34",
     "favoriteSong": "Endless",
-    "releaseDate": "Jan 17, 2020"
+    "releaseDate": "Jan 17, 2020",
+    "releaseDateISO": "2020-01-17"
   },
   {
     "rank": 44,
@@ -613,7 +656,8 @@ const ALBUMS = [
     "genre2": "Pop Rock",
     "duration": "0:35:18",
     "favoriteSong": "You Swore Your Love Would Burn",
-    "releaseDate": "Oct 15, 2021"
+    "releaseDate": "Oct 15, 2021",
+    "releaseDateISO": "2021-10-15"
   },
   {
     "rank": 45,
@@ -627,7 +671,8 @@ const ALBUMS = [
     "genre2": "Emo Pop",
     "duration": "0:38:19",
     "favoriteSong": "Stupid",
-    "releaseDate": "Mar 4, 2022"
+    "releaseDate": "Mar 4, 2022",
+    "releaseDateISO": "2022-03-04"
   },
   {
     "rank": 46,
@@ -641,7 +686,8 @@ const ALBUMS = [
     "genre2": "Conscious Rap",
     "duration": "0:44:20",
     "favoriteSong": "squabble up",
-    "releaseDate": "Nov 22, 2024"
+    "releaseDate": "Nov 22, 2024",
+    "releaseDateISO": "2024-11-22"
   },
   {
     "rank": 47,
@@ -655,7 +701,8 @@ const ALBUMS = [
     "genre2": "Indie Rock",
     "duration": "0:43:26",
     "favoriteSong": "Spitting In The Wind",
-    "releaseDate": "Apr 12, 2024"
+    "releaseDate": "Apr 12, 2024",
+    "releaseDateISO": "2024-04-12"
   },
   {
     "rank": 48,
@@ -669,7 +716,8 @@ const ALBUMS = [
     "genre2": "Singer-Songwriter",
     "duration": "0:40:42",
     "favoriteSong": "Graceland Too",
-    "releaseDate": "Jun 18, 2020"
+    "releaseDate": "Jun 18, 2020",
+    "releaseDateISO": "2020-06-18"
   },
   {
     "rank": 49,
@@ -683,7 +731,8 @@ const ALBUMS = [
     "genre2": "Americana",
     "duration": "0:51:22",
     "favoriteSong": "Desperate Things",
-    "releaseDate": "Aug 13, 2021"
+    "releaseDate": "Aug 13, 2021",
+    "releaseDateISO": "2021-08-13"
   },
   {
     "rank": 50,
@@ -697,7 +746,8 @@ const ALBUMS = [
     "genre2": "Melodic Hardcore",
     "duration": "0:40:11",
     "favoriteSong": "Head & Spine",
-    "releaseDate": "Feb 21, 2025"
+    "releaseDate": "Feb 21, 2025",
+    "releaseDateISO": "2025-02-21"
   },
   {
     "rank": 51,
@@ -711,7 +761,8 @@ const ALBUMS = [
     "genre2": "Americana",
     "duration": "0:49:35",
     "favoriteSong": "This Age",
-    "releaseDate": "Aug 22, 2025"
+    "releaseDate": "Aug 22, 2025",
+    "releaseDateISO": "2025-08-22"
   },
   {
     "rank": 52,
@@ -725,7 +776,8 @@ const ALBUMS = [
     "genre2": "Pop Punk",
     "duration": "0:35:05",
     "favoriteSong": "Yesterday",
-    "releaseDate": "Mar 14, 2025"
+    "releaseDate": "Mar 14, 2025",
+    "releaseDateISO": "2025-03-14"
   },
   {
     "rank": 53,
@@ -739,7 +791,8 @@ const ALBUMS = [
     "genre2": "Post-Punk Revival",
     "duration": "0:37:40",
     "favoriteSong": "I Want To Kill You",
-    "releaseDate": "Mar 26, 2021"
+    "releaseDate": "Mar 26, 2021",
+    "releaseDateISO": "2021-03-26"
   },
   {
     "rank": 54,
@@ -753,7 +806,8 @@ const ALBUMS = [
     "genre2": "Political Rap",
     "duration": "0:39:03",
     "favoriteSong": "JU$T",
-    "releaseDate": "Jun 3, 2020"
+    "releaseDate": "Jun 3, 2020",
+    "releaseDateISO": "2020-06-03"
   },
   {
     "rank": 55,
@@ -767,7 +821,8 @@ const ALBUMS = [
     "genre2": "Coke Rap",
     "duration": "0:40:52",
     "favoriteSong": "F.I.C.O.",
-    "releaseDate": "Jul 11, 2025"
+    "releaseDate": "Jul 11, 2025",
+    "releaseDateISO": "2025-07-11"
   },
   {
     "rank": 56,
@@ -781,7 +836,8 @@ const ALBUMS = [
     "genre2": "Post-Hardcore",
     "duration": "0:32:09",
     "favoriteSong": "Speechless",
-    "releaseDate": "Jan 21, 2022"
+    "releaseDate": "Jan 21, 2022",
+    "releaseDateISO": "2022-01-21"
   },
   {
     "rank": 57,
@@ -795,7 +851,8 @@ const ALBUMS = [
     "genre2": "Synthpop",
     "duration": "0:39:47",
     "favoriteSong": "",
-    "releaseDate": "Oct 14, 2022"
+    "releaseDate": "Oct 14, 2022",
+    "releaseDateISO": "2022-10-14"
   },
   {
     "rank": 58,
@@ -809,7 +866,8 @@ const ALBUMS = [
     "genre2": "Singer-Songwriter",
     "duration": "0:56:39",
     "favoriteSong": "I Belong In Your Arms",
-    "releaseDate": "Jan 10, 2025"
+    "releaseDate": "Jan 10, 2025",
+    "releaseDateISO": "2025-01-10"
   },
   {
     "rank": 59,
@@ -823,7 +881,8 @@ const ALBUMS = [
     "genre2": "Synth Rock",
     "duration": "0:48:42",
     "favoriteSong": "Loverboy",
-    "releaseDate": "Apr 3, 2021"
+    "releaseDate": "Apr 3, 2021",
+    "releaseDateISO": "2021-04-03"
   },
   {
     "rank": 60,
@@ -837,7 +896,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:30:27",
     "favoriteSong": "Circling The Drain",
-    "releaseDate": "Apr 26, 2024"
+    "releaseDate": "Apr 26, 2024",
+    "releaseDateISO": "2024-04-26"
   },
   {
     "rank": 61,
@@ -851,7 +911,8 @@ const ALBUMS = [
     "genre2": "Emo Rock",
     "duration": "0:37:35",
     "favoriteSong": "Someday",
-    "releaseDate": "Aug 26, 2022"
+    "releaseDate": "Aug 26, 2022",
+    "releaseDateISO": "2022-08-26"
   },
   {
     "rank": 62,
@@ -865,7 +926,8 @@ const ALBUMS = [
     "genre2": "Emo Rock",
     "duration": "0:36:15",
     "favoriteSong": "Fail You",
-    "releaseDate": "Aug 18, 2023"
+    "releaseDate": "Aug 18, 2023",
+    "releaseDateISO": "2023-08-18"
   },
   {
     "rank": 63,
@@ -879,7 +941,8 @@ const ALBUMS = [
     "genre2": "Latin Fusion",
     "duration": "0:44:52",
     "favoriteSong": "Cerulea",
-    "releaseDate": "Sep 16, 2022"
+    "releaseDate": "Sep 16, 2022",
+    "releaseDateISO": "2022-09-16"
   },
   {
     "rank": 64,
@@ -893,7 +956,8 @@ const ALBUMS = [
     "genre2": "Experimental Rock",
     "duration": "0:48:29",
     "favoriteSong": "Three Wishes",
-    "releaseDate": "Apr 24, 2020"
+    "releaseDate": "Apr 24, 2020",
+    "releaseDateISO": "2020-04-24"
   },
   {
     "rank": 65,
@@ -907,7 +971,8 @@ const ALBUMS = [
     "genre2": "Indie Rock",
     "duration": "0:55:51",
     "favoriteSong": "Dead Horse",
-    "releaseDate": "May 8, 2020"
+    "releaseDate": "May 8, 2020",
+    "releaseDateISO": "2020-05-08"
   },
   {
     "rank": 66,
@@ -921,7 +986,8 @@ const ALBUMS = [
     "genre2": "Dream Pop",
     "duration": "0:44:13",
     "favoriteSong": "yellow is the color of her eyes",
-    "releaseDate": "Feb 28, 2020"
+    "releaseDate": "Feb 28, 2020",
+    "releaseDateISO": "2020-02-28"
   },
   {
     "rank": 67,
@@ -935,7 +1001,8 @@ const ALBUMS = [
     "genre2": "Ambient Pop",
     "duration": "0:42:16",
     "favoriteSong": "Walking Backwards",
-    "releaseDate": "Jun 16, 2023"
+    "releaseDate": "Jun 16, 2023",
+    "releaseDateISO": "2023-06-16"
   },
   {
     "rank": 68,
@@ -949,7 +1016,8 @@ const ALBUMS = [
     "genre2": "Art Rock",
     "duration": "0:46:02",
     "favoriteSong": "MOTY",
-    "releaseDate": "May 24, 2024"
+    "releaseDate": "May 24, 2024",
+    "releaseDateISO": "2024-05-24"
   },
   {
     "rank": 69,
@@ -963,7 +1031,8 @@ const ALBUMS = [
     "genre2": "Garage Rock",
     "duration": "0:41:01",
     "favoriteSong": "Knife",
-    "releaseDate": "May 10, 2024"
+    "releaseDate": "May 10, 2024",
+    "releaseDateISO": "2024-05-10"
   },
   {
     "rank": 70,
@@ -977,7 +1046,8 @@ const ALBUMS = [
     "genre2": "Folk Rock",
     "duration": "0:38:12",
     "favoriteSong": "Change Is In The Air",
-    "releaseDate": "Jul 4, 2025"
+    "releaseDate": "Jul 4, 2025",
+    "releaseDateISO": "2025-07-04"
   },
   {
     "rank": 71,
@@ -991,7 +1061,8 @@ const ALBUMS = [
     "genre2": "Southern Hip-Hop",
     "duration": "0:40:34",
     "favoriteSong": "Twisting Fingers",
-    "releaseDate": "Mar 1, 2024"
+    "releaseDate": "Mar 1, 2024",
+    "releaseDateISO": "2024-03-01"
   },
   {
     "rank": 72,
@@ -1005,7 +1076,8 @@ const ALBUMS = [
     "genre2": "Power Pop",
     "duration": "0:38:50",
     "favoriteSong": "Jump Rope Gazers",
-    "releaseDate": "Jul 10, 2020"
+    "releaseDate": "Jul 10, 2020",
+    "releaseDateISO": "2020-07-10"
   },
   {
     "rank": 73,
@@ -1019,7 +1091,8 @@ const ALBUMS = [
     "genre2": "Alternative Pop",
     "duration": "0:34:03",
     "favoriteSong": "Attention",
-    "releaseDate": "Jun 27, 2023"
+    "releaseDate": "Jun 27, 2023",
+    "releaseDateISO": "2023-06-27"
   },
   {
     "rank": 74,
@@ -1033,7 +1106,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:45:11",
     "favoriteSong": "Haunted",
-    "releaseDate": "Aug 25, 2023"
+    "releaseDate": "Aug 25, 2023",
+    "releaseDateISO": "2023-08-25"
   },
   {
     "rank": 75,
@@ -1047,7 +1121,8 @@ const ALBUMS = [
     "genre2": "Indie",
     "duration": "0:39:01",
     "favoriteSong": "Half a Lifetime",
-    "releaseDate": "Mar 21, 2025"
+    "releaseDate": "Mar 21, 2025",
+    "releaseDateISO": "2025-03-21"
   },
   {
     "rank": 76,
@@ -1061,7 +1136,8 @@ const ALBUMS = [
     "genre2": "Power Pop",
     "duration": "0:35:31",
     "favoriteSong": "Some Wear a Dark Heart",
-    "releaseDate": "Sep 19, 2025"
+    "releaseDate": "Sep 19, 2025",
+    "releaseDateISO": "2025-09-19"
   },
   {
     "rank": 77,
@@ -1075,7 +1151,8 @@ const ALBUMS = [
     "genre2": "Punk Rock",
     "duration": "0:35:10",
     "favoriteSong": "Doom Boy",
-    "releaseDate": "Jan 1, 2021"
+    "releaseDate": "Jan 1, 2021",
+    "releaseDateISO": "2021-01-01"
   },
   {
     "rank": 78,
@@ -1089,7 +1166,8 @@ const ALBUMS = [
     "genre2": "Alt Rock",
     "duration": "0:29:18",
     "favoriteSong": "",
-    "releaseDate": "May 6, 2022"
+    "releaseDate": "May 6, 2022",
+    "releaseDateISO": "2022-05-06"
   },
   {
     "rank": 79,
@@ -1103,7 +1181,8 @@ const ALBUMS = [
     "genre2": "Space Rock",
     "duration": "0:37:52",
     "favoriteSong": "Euphoria",
-    "releaseDate": "Sep 24, 2021"
+    "releaseDate": "Sep 24, 2021",
+    "releaseDateISO": "2021-09-24"
   },
   {
     "rank": 80,
@@ -1117,7 +1196,8 @@ const ALBUMS = [
     "genre2": "Country Folk",
     "duration": "0:28:01",
     "favoriteSong": "In Your Love",
-    "releaseDate": "Sep 8, 2023"
+    "releaseDate": "Sep 8, 2023",
+    "releaseDateISO": "2023-09-08"
   },
   {
     "rank": 81,
@@ -1131,7 +1211,8 @@ const ALBUMS = [
     "genre2": "Country Pop",
     "duration": "1:27:00",
     "favoriteSong": "What Don't Belong To Me",
-    "releaseDate": "Aug 16, 2024"
+    "releaseDate": "Aug 16, 2024",
+    "releaseDateISO": "2024-08-16"
   },
   {
     "rank": 82,
@@ -1145,7 +1226,8 @@ const ALBUMS = [
     "genre2": "Emo Pop",
     "duration": "0:32:39",
     "favoriteSong": "Stress Dream",
-    "releaseDate": "Sep 23, 2022"
+    "releaseDate": "Sep 23, 2022",
+    "releaseDateISO": "2022-09-23"
   },
   {
     "rank": 83,
@@ -1159,7 +1241,8 @@ const ALBUMS = [
     "genre2": "Pop Punk",
     "duration": "0:24:23",
     "favoriteSong": "78",
-    "releaseDate": "Oct 29, 2021"
+    "releaseDate": "Oct 29, 2021",
+    "releaseDateISO": "2021-10-29"
   },
   {
     "rank": 84,
@@ -1173,7 +1256,8 @@ const ALBUMS = [
     "genre2": "Synthpop",
     "duration": "0:32:57",
     "favoriteSong": "Old Elba",
-    "releaseDate": "Oct 1, 2021"
+    "releaseDate": "Oct 1, 2021",
+    "releaseDateISO": "2021-10-01"
   },
   {
     "rank": 85,
@@ -1187,7 +1271,8 @@ const ALBUMS = [
     "genre2": "Heartland Rock",
     "duration": "0:44:55",
     "favoriteSong": "Mustang",
-    "releaseDate": "May 10, 2024"
+    "releaseDate": "May 10, 2024",
+    "releaseDateISO": "2024-05-10"
   },
   {
     "rank": 86,
@@ -1201,7 +1286,8 @@ const ALBUMS = [
     "genre2": "Emo Rock",
     "duration": "0:40:03",
     "favoriteSong": "Old Coat Pocket",
-    "releaseDate": "Sep 22, 2023"
+    "releaseDate": "Sep 22, 2023",
+    "releaseDateISO": "2023-09-22"
   },
   {
     "rank": 87,
@@ -1215,7 +1301,8 @@ const ALBUMS = [
     "genre2": "Emo Pop",
     "duration": "1:14:00",
     "favoriteSong": "ALL IN MY HEAD",
-    "releaseDate": "Sep 6, 2024"
+    "releaseDate": "Sep 6, 2024",
+    "releaseDateISO": "2024-09-06"
   },
   {
     "rank": 88,
@@ -1229,7 +1316,8 @@ const ALBUMS = [
     "genre2": "Alternative",
     "duration": "0:25:17",
     "favoriteSong": "",
-    "releaseDate": "Aug 26, 2022"
+    "releaseDate": "Aug 26, 2022",
+    "releaseDateISO": "2022-08-26"
   },
   {
     "rank": 89,
@@ -1243,7 +1331,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:30:49",
     "favoriteSong": "Washington Square Park",
-    "releaseDate": "Feb 14, 2020"
+    "releaseDate": "Feb 14, 2020",
+    "releaseDateISO": "2020-02-14"
   },
   {
     "rank": 90,
@@ -1257,7 +1346,8 @@ const ALBUMS = [
     "genre2": "Acoustic Rock",
     "duration": "0:11:57",
     "favoriteSong": "Please Don't Cry, You Have Swag",
-    "releaseDate": "May 28, 2021"
+    "releaseDate": "May 28, 2021",
+    "releaseDateISO": "2021-05-28"
   },
   {
     "rank": 91,
@@ -1271,7 +1361,8 @@ const ALBUMS = [
     "genre2": "Indie Rock",
     "duration": "0:42:41",
     "favoriteSong": "False Start",
-    "releaseDate": "Sep 18, 2020"
+    "releaseDate": "Sep 18, 2020",
+    "releaseDateISO": "2020-09-18"
   },
   {
     "rank": 92,
@@ -1285,7 +1376,8 @@ const ALBUMS = [
     "genre2": "Indie Punk",
     "duration": "0:39:47",
     "favoriteSong": "",
-    "releaseDate": "Jul 1, 2022"
+    "releaseDate": "Jul 1, 2022",
+    "releaseDateISO": "2022-07-01"
   },
   {
     "rank": 93,
@@ -1299,7 +1391,8 @@ const ALBUMS = [
     "genre2": "Trap",
     "duration": "1:02:00",
     "favoriteSong": "I'm Ill",
-    "releaseDate": "Mar 22, 2024"
+    "releaseDate": "Mar 22, 2024",
+    "releaseDateISO": "2024-03-22"
   },
   {
     "rank": 94,
@@ -1313,7 +1406,8 @@ const ALBUMS = [
     "genre2": "Pop Punk",
     "duration": "0:35:50",
     "favoriteSong": "Circulate",
-    "releaseDate": "Sep 26, 2025"
+    "releaseDate": "Sep 26, 2025",
+    "releaseDateISO": "2025-09-26"
   },
   {
     "rank": 95,
@@ -1327,7 +1421,8 @@ const ALBUMS = [
     "genre2": "Garage Rock",
     "duration": "0:37:54",
     "favoriteSong": "Out Loud",
-    "releaseDate": "Apr 23, 2021"
+    "releaseDate": "Apr 23, 2021",
+    "releaseDateISO": "2021-04-23"
   },
   {
     "rank": 96,
@@ -1341,7 +1436,8 @@ const ALBUMS = [
     "genre2": "Alt Pop",
     "duration": "0:42:44",
     "favoriteSong": "The Freedom to Fuck Off",
-    "releaseDate": "Sep 22, 2023"
+    "releaseDate": "Sep 22, 2023",
+    "releaseDateISO": "2023-09-22"
   },
   {
     "rank": 97,
@@ -1355,7 +1451,8 @@ const ALBUMS = [
     "genre2": "Dream Pop",
     "duration": "0:32:34",
     "favoriteSong": "",
-    "releaseDate": "May 27, 2022"
+    "releaseDate": "May 27, 2022",
+    "releaseDateISO": "2022-05-27"
   },
   {
     "rank": 98,
@@ -1369,7 +1466,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:34:15",
     "favoriteSong": "I Won't Care How You Remember Me",
-    "releaseDate": "Mar 5, 2021"
+    "releaseDate": "Mar 5, 2021",
+    "releaseDateISO": "2021-03-05"
   },
   {
     "rank": 99,
@@ -1383,7 +1481,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:35:50",
     "favoriteSong": "Concrete",
-    "releaseDate": "May 2, 2025"
+    "releaseDate": "May 2, 2025",
+    "releaseDateISO": "2025-05-02"
   },
   {
     "rank": 100,
@@ -1397,7 +1496,8 @@ const ALBUMS = [
     "genre2": "Synthpop",
     "duration": "0:40:02",
     "favoriteSong": "Go Ahead and Cry",
-    "releaseDate": "Oct 13, 2023"
+    "releaseDate": "Oct 13, 2023",
+    "releaseDateISO": "2023-10-13"
   },
   {
     "rank": 101,
@@ -1411,7 +1511,8 @@ const ALBUMS = [
     "genre2": "Indie Punk",
     "duration": "0:22:09",
     "favoriteSong": "Second Best Friend",
-    "releaseDate": "Jun 16, 2023"
+    "releaseDate": "Jun 16, 2023",
+    "releaseDateISO": "2023-06-16"
   },
   {
     "rank": 102,
@@ -1425,7 +1526,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:35:50",
     "favoriteSong": "",
-    "releaseDate": "Apr 1, 2022"
+    "releaseDate": "Apr 1, 2022",
+    "releaseDateISO": "2022-04-01"
   },
   {
     "rank": 103,
@@ -1439,7 +1541,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:37:01",
     "favoriteSong": "",
-    "releaseDate": "Mar 18, 2022"
+    "releaseDate": "Mar 18, 2022",
+    "releaseDateISO": "2022-03-18"
   },
   {
     "rank": 104,
@@ -1453,7 +1556,8 @@ const ALBUMS = [
     "genre2": "Math Rock",
     "duration": "0:32:20",
     "favoriteSong": "Easily Undone",
-    "releaseDate": "Jul 12, 2024"
+    "releaseDate": "Jul 12, 2024",
+    "releaseDateISO": "2024-07-12"
   },
   {
     "rank": 105,
@@ -1467,7 +1571,8 @@ const ALBUMS = [
     "genre2": "Americana",
     "duration": "0:54:23",
     "favoriteSong": "Overtime",
-    "releaseDate": "Aug 25, 2023"
+    "releaseDate": "Aug 25, 2023",
+    "releaseDateISO": "2023-08-25"
   },
   {
     "rank": 106,
@@ -1481,7 +1586,8 @@ const ALBUMS = [
     "genre2": "Emo Rock",
     "duration": "0:30:22",
     "favoriteSong": "Storyteller",
-    "releaseDate": "Sep 17, 2021"
+    "releaseDate": "Sep 17, 2021",
+    "releaseDateISO": "2021-09-17"
   },
   {
     "rank": 107,
@@ -1495,7 +1601,8 @@ const ALBUMS = [
     "genre2": "Experimental Rock",
     "duration": "0:35:16",
     "favoriteSong": "Feel Again",
-    "releaseDate": "Mar 31, 2023"
+    "releaseDate": "Mar 31, 2023",
+    "releaseDateISO": "2023-03-31"
   },
   {
     "rank": 109,
@@ -1509,7 +1616,8 @@ const ALBUMS = [
     "genre2": "Indie Synthpop",
     "duration": "0:45:05",
     "favoriteSong": "You Always Get What You Want",
-    "releaseDate": "Jun 30, 2023"
+    "releaseDate": "Jun 30, 2023",
+    "releaseDateISO": "2023-06-30"
   },
   {
     "rank": 110,
@@ -1523,7 +1631,8 @@ const ALBUMS = [
     "genre2": "Shoegaze",
     "duration": "0:37:50",
     "favoriteSong": "any means",
-    "releaseDate": "Oct 4, 2024"
+    "releaseDate": "Oct 4, 2024",
+    "releaseDateISO": "2024-10-04"
   },
   {
     "rank": 111,
@@ -1537,7 +1646,8 @@ const ALBUMS = [
     "genre2": "Shoegaze",
     "duration": "0:45:44",
     "favoriteSong": "",
-    "releaseDate": "Jul 15, 2022"
+    "releaseDate": "Jul 15, 2022",
+    "releaseDateISO": "2022-07-15"
   },
   {
     "rank": 112,
@@ -1551,7 +1661,8 @@ const ALBUMS = [
     "genre2": "Easycore",
     "duration": "0:36:45",
     "favoriteSong": "Golden",
-    "releaseDate": "Jun 30, 2023"
+    "releaseDate": "Jun 30, 2023",
+    "releaseDateISO": "2023-06-30"
   },
   {
     "rank": 113,
@@ -1565,7 +1676,8 @@ const ALBUMS = [
     "genre2": "Ambient Rock",
     "duration": "0:27:56",
     "favoriteSong": "",
-    "releaseDate": "Sep 16, 2022"
+    "releaseDate": "Sep 16, 2022",
+    "releaseDateISO": "2022-09-16"
   },
   {
     "rank": 114,
@@ -1579,7 +1691,8 @@ const ALBUMS = [
     "genre2": "Conscious Rap",
     "duration": "0:43:09",
     "favoriteSong": "Huntin' Wabbitz",
-    "releaseDate": "Apr 5, 2024"
+    "releaseDate": "Apr 5, 2024",
+    "releaseDateISO": "2024-04-05"
   },
   {
     "rank": 115,
@@ -1593,7 +1706,8 @@ const ALBUMS = [
     "genre2": "Emo Rock",
     "duration": "0:28:13",
     "favoriteSong": "Big Blind",
-    "releaseDate": "Jun 21, 2024"
+    "releaseDate": "Jun 21, 2024",
+    "releaseDateISO": "2024-06-21"
   },
   {
     "rank": 116,
@@ -1607,7 +1721,8 @@ const ALBUMS = [
     "genre2": "",
     "duration": "0:38:24",
     "favoriteSong": "Manchild",
-    "releaseDate": "Aug 29, 2026"
+    "releaseDate": "Aug 29, 2026",
+    "releaseDateISO": "2026-08-29"
   },
   {
     "rank": 117,
@@ -1621,7 +1736,8 @@ const ALBUMS = [
     "genre2": "Electro-Rock",
     "duration": "0:47:28",
     "favoriteSong": "Downstairs",
-    "releaseDate": "Sep 12, 2025"
+    "releaseDate": "Sep 12, 2025",
+    "releaseDateISO": "2025-09-12"
   },
   {
     "rank": 118,
@@ -1635,7 +1751,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:27:31",
     "favoriteSong": "",
-    "releaseDate": "Aug 26, 2022"
+    "releaseDate": "Aug 26, 2022",
+    "releaseDateISO": "2022-08-26"
   },
   {
     "rank": 119,
@@ -1649,7 +1766,8 @@ const ALBUMS = [
     "genre2": "Midwest Emo",
     "duration": "0:30:48",
     "favoriteSong": "Classic Case of Guy on the Ground",
-    "releaseDate": "Nov 14, 2025"
+    "releaseDate": "Nov 14, 2025",
+    "releaseDateISO": "2025-11-14"
   },
   {
     "rank": 120,
@@ -1663,7 +1781,8 @@ const ALBUMS = [
     "genre2": "Rock",
     "duration": "0:43:58",
     "favoriteSong": "Why Don't You Love Me?",
-    "releaseDate": "Feb 21, 2025"
+    "releaseDate": "Feb 21, 2025",
+    "releaseDateISO": "2025-02-21"
   },
   {
     "rank": 121,
@@ -1677,7 +1796,8 @@ const ALBUMS = [
     "genre2": "Alt Pop",
     "duration": "0:46:49",
     "favoriteSong": "Two Times",
-    "releaseDate": "May 2, 2025"
+    "releaseDate": "May 2, 2025",
+    "releaseDateISO": "2025-05-02"
   },
   {
     "rank": 122,
@@ -1691,7 +1811,8 @@ const ALBUMS = [
     "genre2": "Emo Pop",
     "duration": "0:36:24",
     "favoriteSong": "Carolina Skies",
-    "releaseDate": "Aug 27, 2021"
+    "releaseDate": "Aug 27, 2021",
+    "releaseDateISO": "2021-08-27"
   },
   {
     "rank": 123,
@@ -1705,7 +1826,8 @@ const ALBUMS = [
     "genre2": "Hip-Hop",
     "duration": "0:41:17",
     "favoriteSong": "Don't Want It",
-    "releaseDate": "Sep 17, 2021"
+    "releaseDate": "Sep 17, 2021",
+    "releaseDateISO": "2021-09-17"
   },
   {
     "rank": 125,
@@ -1719,7 +1841,8 @@ const ALBUMS = [
     "genre2": "Grungegaze",
     "duration": "0:47:06",
     "favoriteSong": "Still Love",
-    "releaseDate": "Aug 4, 2023"
+    "releaseDate": "Aug 4, 2023",
+    "releaseDateISO": "2023-08-04"
   },
   {
     "rank": 126,
@@ -1733,7 +1856,8 @@ const ALBUMS = [
     "genre2": "Bedroom Pop",
     "duration": "0:24:18",
     "favoriteSong": "what am i supposed to do",
-    "releaseDate": "Sep 12, 2025"
+    "releaseDate": "Sep 12, 2025",
+    "releaseDateISO": "2025-09-12"
   },
   {
     "rank": 127,
@@ -1747,7 +1871,8 @@ const ALBUMS = [
     "genre2": "Emo Rap",
     "duration": "0:36:09",
     "favoriteSong": "forget me too",
-    "releaseDate": "Sep 25, 2020"
+    "releaseDate": "Sep 25, 2020",
+    "releaseDateISO": "2020-09-25"
   },
   {
     "rank": 128,
@@ -1761,7 +1886,8 @@ const ALBUMS = [
     "genre2": "Indie Pop",
     "duration": "0:43:10",
     "favoriteSong": "Alone in Miami",
-    "releaseDate": "Jul 12, 2024"
+    "releaseDate": "Jul 12, 2024",
+    "releaseDateISO": "2024-07-12"
   },
   {
     "rank": 129,
@@ -1775,7 +1901,8 @@ const ALBUMS = [
     "genre2": "Alt Pop",
     "duration": "0:32:25",
     "favoriteSong": "Dirty, Pretty, Beautiful",
-    "releaseDate": "Jul 9, 2021"
+    "releaseDate": "Jul 9, 2021",
+    "releaseDateISO": "2021-07-09"
   },
   {
     "rank": 130,
@@ -1789,7 +1916,8 @@ const ALBUMS = [
     "genre2": "Indie Punk",
     "duration": "0:16:43",
     "favoriteSong": "",
-    "releaseDate": "Jun 10, 2022"
+    "releaseDate": "Jun 10, 2022",
+    "releaseDateISO": "2022-06-10"
   },
   {
     "rank": 131,
@@ -1803,7 +1931,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "1:10:00",
     "favoriteSong": "Fewer Afraid",
-    "releaseDate": "Oct 8, 2021"
+    "releaseDate": "Oct 8, 2021",
+    "releaseDateISO": "2021-10-08"
   },
   {
     "rank": 132,
@@ -1817,7 +1946,8 @@ const ALBUMS = [
     "genre2": "Metal",
     "duration": "0:55:12",
     "favoriteSong": "Dopamine",
-    "releaseDate": "Mar 29, 2024"
+    "releaseDate": "Mar 29, 2024",
+    "releaseDateISO": "2024-03-29"
   },
   {
     "rank": 133,
@@ -1831,7 +1961,8 @@ const ALBUMS = [
     "genre2": "Indie Pop",
     "duration": "0:49:27",
     "favoriteSong": "",
-    "releaseDate": "Feb 11, 2022"
+    "releaseDate": "Feb 11, 2022",
+    "releaseDateISO": "2022-02-11"
   },
   {
     "rank": 134,
@@ -1845,7 +1976,8 @@ const ALBUMS = [
     "genre2": "Post-Hardcore",
     "duration": "0:42:13",
     "favoriteSong": "",
-    "releaseDate": "Jun 3, 2022"
+    "releaseDate": "Jun 3, 2022",
+    "releaseDateISO": "2022-06-03"
   },
   {
     "rank": 135,
@@ -1859,7 +1991,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:29:14",
     "favoriteSong": "all of my love",
-    "releaseDate": "Aug 9, 2024"
+    "releaseDate": "Aug 9, 2024",
+    "releaseDateISO": "2024-08-09"
   },
   {
     "rank": 136,
@@ -1873,7 +2006,8 @@ const ALBUMS = [
     "genre2": "Trap",
     "duration": "0:49:50",
     "favoriteSong": "Fuck On Me",
-    "releaseDate": "Aug 14, 2025"
+    "releaseDate": "Aug 14, 2025",
+    "releaseDateISO": "2025-08-14"
   },
   {
     "rank": 137,
@@ -1887,7 +2021,8 @@ const ALBUMS = [
     "genre2": "Post Pop Punk",
     "duration": "0:42:53",
     "favoriteSong": "Monica Lewinskibidi",
-    "releaseDate": "Aug 22, 2026"
+    "releaseDate": "Aug 22, 2026",
+    "releaseDateISO": "2026-08-22"
   },
   {
     "rank": 138,
@@ -1901,7 +2036,8 @@ const ALBUMS = [
     "genre2": "Post-Punk",
     "duration": "0:38:27",
     "favoriteSong": "catch these fists",
-    "releaseDate": "Jul 11, 2025"
+    "releaseDate": "Jul 11, 2025",
+    "releaseDateISO": "2025-07-11"
   },
   {
     "rank": 139,
@@ -1915,7 +2051,8 @@ const ALBUMS = [
     "genre2": "Dream Pop",
     "duration": "0:45:37",
     "favoriteSong": "Tiny Threads",
-    "releaseDate": "Feb 28, 2025"
+    "releaseDate": "Feb 28, 2025",
+    "releaseDateISO": "2025-02-28"
   },
   {
     "rank": 140,
@@ -1929,7 +2066,8 @@ const ALBUMS = [
     "genre2": "Alternative Rock",
     "duration": "0:37:45",
     "favoriteSong": "Good Advice",
-    "releaseDate": "Apr 5, 2024"
+    "releaseDate": "Apr 5, 2024",
+    "releaseDateISO": "2024-04-05"
   },
   {
     "rank": 141,
@@ -1943,7 +2081,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:46:26",
     "favoriteSong": "I Feel More Like Myself When I'm Losing It",
-    "releaseDate": "Jun 21, 2024"
+    "releaseDate": "Jun 21, 2024",
+    "releaseDateISO": "2024-06-21"
   },
   {
     "rank": 142,
@@ -1957,7 +2096,8 @@ const ALBUMS = [
     "genre2": "Indie Rock",
     "duration": "0:38:25",
     "favoriteSong": "car",
-    "releaseDate": "Aug 22, 2025"
+    "releaseDate": "Aug 22, 2025",
+    "releaseDateISO": "2025-08-22"
   },
   {
     "rank": 143,
@@ -1971,7 +2111,8 @@ const ALBUMS = [
     "genre2": "Pop Rock",
     "duration": "0:35:53",
     "favoriteSong": "The Kill",
-    "releaseDate": "Apr 12, 2024"
+    "releaseDate": "Apr 12, 2024",
+    "releaseDateISO": "2024-04-12"
   },
   {
     "rank": 144,
@@ -1985,7 +2126,8 @@ const ALBUMS = [
     "genre2": "Metalcore",
     "duration": "1:03:00",
     "favoriteSong": "Heart To Heart",
-    "releaseDate": "May 24, 2024"
+    "releaseDate": "May 24, 2024",
+    "releaseDateISO": "2024-05-24"
   },
   {
     "rank": 145,
@@ -1999,7 +2141,8 @@ const ALBUMS = [
     "genre2": "Math Rock",
     "duration": "0:25:49",
     "favoriteSong": "Before I Go",
-    "releaseDate": "Nov 15, 2024"
+    "releaseDate": "Nov 15, 2024",
+    "releaseDateISO": "2024-11-15"
   },
   {
     "rank": 146,
@@ -2013,7 +2156,8 @@ const ALBUMS = [
     "genre2": "Easycore",
     "duration": "0:39:00",
     "favoriteSong": "SSX Trickmont",
-    "releaseDate": "Apr 12, 2024"
+    "releaseDate": "Apr 12, 2024",
+    "releaseDateISO": "2024-04-12"
   },
   {
     "rank": 147,
@@ -2027,7 +2171,8 @@ const ALBUMS = [
     "genre2": "Easycore",
     "duration": "0:44:27",
     "favoriteSong": "Complete You",
-    "releaseDate": "Jul 30, 2021"
+    "releaseDate": "Jul 30, 2021",
+    "releaseDateISO": "2021-07-30"
   },
   {
     "rank": 148,
@@ -2041,7 +2186,8 @@ const ALBUMS = [
     "genre2": "Acoustic",
     "duration": "0:30:48",
     "favoriteSong": "Junebug",
-    "releaseDate": "May 9, 2025"
+    "releaseDate": "May 9, 2025",
+    "releaseDateISO": "2025-05-09"
   },
   {
     "rank": 149,
@@ -2055,7 +2201,8 @@ const ALBUMS = [
     "genre2": "Spoken Word Emo",
     "duration": "1:04:00",
     "favoriteSong": "Environmental Catastrophe Film",
-    "releaseDate": "Sep 5, 2025"
+    "releaseDate": "Sep 5, 2025",
+    "releaseDateISO": "2025-09-05"
   },
   {
     "rank": 150,
@@ -2069,7 +2216,8 @@ const ALBUMS = [
     "genre2": "Experimental",
     "duration": "1:20:00",
     "favoriteSong": "Jesus Christ 2005 God Bless America",
-    "releaseDate": "May 22, 2020"
+    "releaseDate": "May 22, 2020",
+    "releaseDateISO": "2020-05-22"
   },
   {
     "rank": 151,
@@ -2083,7 +2231,8 @@ const ALBUMS = [
     "genre2": "Indie Folk",
     "duration": "0:24:49",
     "favoriteSong": "Paul",
-    "releaseDate": "Jun 4, 2021"
+    "releaseDate": "Jun 4, 2021",
+    "releaseDateISO": "2021-06-04"
   },
   {
     "rank": 152,
@@ -2097,7 +2246,8 @@ const ALBUMS = [
     "genre2": "Neo-Soul",
     "duration": "0:28:30",
     "favoriteSong": "Don't Tap That Glass / Tweakin'",
-    "releaseDate": "Jul 21, 2025"
+    "releaseDate": "Jul 21, 2025",
+    "releaseDateISO": "2025-07-21"
   },
   {
     "rank": 153,
@@ -2111,7 +2261,8 @@ const ALBUMS = [
     "genre2": "Art Punk",
     "duration": "0:34:59",
     "favoriteSong": "Skin Meadow",
-    "releaseDate": "Jun 16, 2023"
+    "releaseDate": "Jun 16, 2023",
+    "releaseDateISO": "2023-06-16"
   },
   {
     "rank": 154,
@@ -2125,7 +2276,8 @@ const ALBUMS = [
     "genre2": "Alternative",
     "duration": "0:44:57",
     "favoriteSong": "I Ran Away",
-    "releaseDate": "Apr 23, 2021"
+    "releaseDate": "Apr 23, 2021",
+    "releaseDateISO": "2021-04-23"
   },
   {
     "rank": 155,
@@ -2139,7 +2291,8 @@ const ALBUMS = [
     "genre2": "Post-Punk",
     "duration": "0:33:45",
     "favoriteSong": "If You're Lonely",
-    "releaseDate": "Oct 6, 2023"
+    "releaseDate": "Oct 6, 2023",
+    "releaseDateISO": "2023-10-06"
   },
   {
     "rank": 156,
@@ -2153,7 +2306,8 @@ const ALBUMS = [
     "genre2": "Soft Rock",
     "duration": "0:38:18",
     "favoriteSong": "",
-    "releaseDate": "Sep 16, 2022"
+    "releaseDate": "Sep 16, 2022",
+    "releaseDateISO": "2022-09-16"
   },
   {
     "rank": 157,
@@ -2167,7 +2321,8 @@ const ALBUMS = [
     "genre2": "Lo-Fi",
     "duration": "1:10:00",
     "favoriteSong": "CCF",
-    "releaseDate": "May 2, 2025"
+    "releaseDate": "May 2, 2025",
+    "releaseDateISO": "2025-05-02"
   },
   {
     "rank": 158,
@@ -2181,7 +2336,8 @@ const ALBUMS = [
     "genre2": "Alt Rock",
     "duration": "0:54:53",
     "favoriteSong": "Cold Reactor",
-    "releaseDate": "Mar 1, 2024"
+    "releaseDate": "Mar 1, 2024",
+    "releaseDateISO": "2024-03-01"
   },
   {
     "rank": 159,
@@ -2195,7 +2351,8 @@ const ALBUMS = [
     "genre2": "Post-Hardcore",
     "duration": "0:46:32",
     "favoriteSong": "The Wound",
-    "releaseDate": "May 16, 2025"
+    "releaseDate": "May 16, 2025",
+    "releaseDateISO": "2025-05-16"
   },
   {
     "rank": 160,
@@ -2209,7 +2366,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:31:45",
     "favoriteSong": "Gruesome",
-    "releaseDate": "May 16, 2025"
+    "releaseDate": "May 16, 2025",
+    "releaseDateISO": "2025-05-16"
   },
   {
     "rank": 161,
@@ -2223,7 +2381,8 @@ const ALBUMS = [
     "genre2": "Chamber Pop",
     "duration": "1:03:00",
     "favoriteSong": "Betty",
-    "releaseDate": "Jul 24, 2020"
+    "releaseDate": "Jul 24, 2020",
+    "releaseDateISO": "2020-07-24"
   },
   {
     "rank": 162,
@@ -2237,7 +2396,8 @@ const ALBUMS = [
     "genre2": "Art Pop",
     "duration": "0:47:14",
     "favoriteSong": "Prep-School Gangsters",
-    "releaseDate": "Apr 5, 2024"
+    "releaseDate": "Apr 5, 2024",
+    "releaseDateISO": "2024-04-05"
   },
   {
     "rank": 163,
@@ -2251,7 +2411,8 @@ const ALBUMS = [
     "genre2": "Alternative",
     "duration": "0:33:55",
     "favoriteSong": "Spiders",
-    "releaseDate": "Feb 12, 2021"
+    "releaseDate": "Feb 12, 2021",
+    "releaseDateISO": "2021-02-12"
   },
   {
     "rank": 164,
@@ -2265,7 +2426,8 @@ const ALBUMS = [
     "genre2": "Experimental Rap",
     "duration": "0:46:38",
     "favoriteSong": "THE LIGHT PT. II",
-    "releaseDate": "Apr 9, 2021"
+    "releaseDate": "Apr 9, 2021",
+    "releaseDateISO": "2021-04-09"
   },
   {
     "rank": 165,
@@ -2279,7 +2441,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:43:14",
     "favoriteSong": "",
-    "releaseDate": "Jun 3, 2022"
+    "releaseDate": "Jun 3, 2022",
+    "releaseDateISO": "2022-06-03"
   },
   {
     "rank": 167,
@@ -2293,7 +2456,8 @@ const ALBUMS = [
     "genre2": "Math Rock",
     "duration": "0:47:13",
     "favoriteSong": "Murder Hornet Fursona",
-    "releaseDate": "Mar 7, 2025"
+    "releaseDate": "Mar 7, 2025",
+    "releaseDateISO": "2025-03-07"
   },
   {
     "rank": 168,
@@ -2307,7 +2471,8 @@ const ALBUMS = [
     "genre2": "Synthpop",
     "duration": "0:45:24",
     "favoriteSong": "Hot Sugar",
-    "releaseDate": "Aug 7, 2020"
+    "releaseDate": "Aug 7, 2020",
+    "releaseDateISO": "2020-08-07"
   },
   {
     "rank": 169,
@@ -2321,7 +2486,8 @@ const ALBUMS = [
     "genre2": "",
     "duration": "0:34:36",
     "favoriteSong": "medicine",
-    "releaseDate": "Aug 29, 2025"
+    "releaseDate": "Aug 29, 2025",
+    "releaseDateISO": "2025-08-29"
   },
   {
     "rank": 170,
@@ -2335,7 +2501,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:37:24",
     "favoriteSong": "Waiting Room",
-    "releaseDate": "Oct 11, 2024"
+    "releaseDate": "Oct 11, 2024",
+    "releaseDateISO": "2024-10-11"
   },
   {
     "rank": 171,
@@ -2349,7 +2516,8 @@ const ALBUMS = [
     "genre2": "Experimental Rap",
     "duration": "0:53:00",
     "favoriteSong": "Thought I Was Dead",
-    "releaseDate": "Oct 28, 2024"
+    "releaseDate": "Oct 28, 2024",
+    "releaseDateISO": "2024-10-28"
   },
   {
     "rank": 172,
@@ -2363,7 +2531,8 @@ const ALBUMS = [
     "genre2": "Post-Hardcore",
     "duration": "0:40:20",
     "favoriteSong": "Nervous Passenger",
-    "releaseDate": "Mar 26, 2021"
+    "releaseDate": "Mar 26, 2021",
+    "releaseDateISO": "2021-03-26"
   },
   {
     "rank": 174,
@@ -2377,7 +2546,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:39:49",
     "favoriteSong": "Sorry Not Sorry",
-    "releaseDate": "Aug 15, 2025"
+    "releaseDate": "Aug 15, 2025",
+    "releaseDateISO": "2025-08-15"
   },
   {
     "rank": 175,
@@ -2391,7 +2561,8 @@ const ALBUMS = [
     "genre2": "Indie Pop",
     "duration": "1:00:00",
     "favoriteSong": "ON CUM",
-    "releaseDate": "May 24, 2024"
+    "releaseDate": "May 24, 2024",
+    "releaseDateISO": "2024-05-24"
   },
   {
     "rank": 176,
@@ -2405,7 +2576,8 @@ const ALBUMS = [
     "genre2": "Mathcore",
     "duration": "0:32:42",
     "favoriteSong": "The Catpains Sat",
-    "releaseDate": "Sep 29, 2023"
+    "releaseDate": "Sep 29, 2023",
+    "releaseDateISO": "2023-09-29"
   },
   {
     "rank": 177,
@@ -2419,7 +2591,8 @@ const ALBUMS = [
     "genre2": "",
     "duration": "0:38:43",
     "favoriteSong": "#1",
-    "releaseDate": "Jun 27, 2025"
+    "releaseDate": "Jun 27, 2025",
+    "releaseDateISO": "2025-06-27"
   },
   {
     "rank": 179,
@@ -2433,7 +2606,8 @@ const ALBUMS = [
     "genre2": "Garage Rock",
     "duration": "0:29:50",
     "favoriteSong": "Rock N' Roll Band",
-    "releaseDate": "Jul 25, 2025"
+    "releaseDate": "Jul 25, 2025",
+    "releaseDateISO": "2025-07-25"
   },
   {
     "rank": 180,
@@ -2447,7 +2621,8 @@ const ALBUMS = [
     "genre2": "Alternative Rock",
     "duration": "0:33:18",
     "favoriteSong": "Heartbreak Of The Century",
-    "releaseDate": "Jan 19, 2024"
+    "releaseDate": "Jan 19, 2024",
+    "releaseDateISO": "2024-01-19"
   },
   {
     "rank": 181,
@@ -2461,7 +2636,8 @@ const ALBUMS = [
     "genre2": "Americana",
     "duration": "1:18:00",
     "favoriteSong": "Bad News",
-    "releaseDate": "Jan 9, 2026"
+    "releaseDate": "Jan 9, 2026",
+    "releaseDateISO": "2026-01-09"
   },
   {
     "rank": 182,
@@ -2475,7 +2651,8 @@ const ALBUMS = [
     "genre2": "Art Rock",
     "duration": "0:56:34",
     "favoriteSong": "Gethsemane",
-    "releaseDate": "May 9, 2025"
+    "releaseDate": "May 9, 2025",
+    "releaseDateISO": "2025-05-09"
   },
   {
     "rank": 183,
@@ -2489,7 +2666,8 @@ const ALBUMS = [
     "genre2": "Synthpop",
     "duration": "0:31:59",
     "favoriteSong": "WOW",
-    "releaseDate": "Nov 7, 2025"
+    "releaseDate": "Nov 7, 2025",
+    "releaseDateISO": "2025-11-07"
   },
   {
     "rank": 185,
@@ -2503,7 +2681,8 @@ const ALBUMS = [
     "genre2": "Indie Rock",
     "duration": "0:39:18",
     "favoriteSong": "Ocular Pat Down",
-    "releaseDate": "Jun 25, 2021"
+    "releaseDate": "Jun 25, 2021",
+    "releaseDateISO": "2021-06-25"
   },
   {
     "rank": 186,
@@ -2517,7 +2696,8 @@ const ALBUMS = [
     "genre2": "Emo Pop",
     "duration": "0:43:13",
     "favoriteSong": "Zaza in the Sun:-)",
-    "releaseDate": "Sep 1, 2023"
+    "releaseDate": "Sep 1, 2023",
+    "releaseDateISO": "2023-09-01"
   },
   {
     "rank": 187,
@@ -2531,7 +2711,8 @@ const ALBUMS = [
     "genre2": "Post-Hardcore",
     "duration": "0:11:04",
     "favoriteSong": "You'll Get Nothing and Like It",
-    "releaseDate": "Oct 25, 2024"
+    "releaseDate": "Oct 25, 2024",
+    "releaseDateISO": "2024-10-25"
   },
   {
     "rank": 188,
@@ -2545,7 +2726,8 @@ const ALBUMS = [
     "genre2": "Alt Folk",
     "duration": "0:41:32",
     "favoriteSong": "My Lonely Ghost",
-    "releaseDate": "Oct 18, 2024"
+    "releaseDate": "Oct 18, 2024",
+    "releaseDateISO": "2024-10-18"
   },
   {
     "rank": 189,
@@ -2559,7 +2741,8 @@ const ALBUMS = [
     "genre2": "Hip-Hop",
     "duration": "1:00:00",
     "favoriteSong": "Lithonia",
-    "releaseDate": "Jul 19, 2024"
+    "releaseDate": "Jul 19, 2024",
+    "releaseDateISO": "2024-07-19"
   },
   {
     "rank": 190,
@@ -2573,7 +2756,8 @@ const ALBUMS = [
     "genre2": "Trap",
     "duration": "0:59:00",
     "favoriteSong": "",
-    "releaseDate": "Jan 16, 2026"
+    "releaseDate": "Jan 16, 2026",
+    "releaseDateISO": "2026-01-16"
   },
   {
     "rank": 191,
@@ -2587,7 +2771,8 @@ const ALBUMS = [
     "genre2": "Alt Rock",
     "duration": "0:43:50",
     "favoriteSong": "Rattlesnake",
-    "releaseDate": "Jul 25, 2025"
+    "releaseDate": "Jul 25, 2025",
+    "releaseDateISO": "2025-07-25"
   },
   {
     "rank": 193,
@@ -2601,7 +2786,8 @@ const ALBUMS = [
     "genre2": "Post-Metal",
     "duration": "1:02:00",
     "favoriteSong": "Doberman",
-    "releaseDate": "Mar 28, 2025"
+    "releaseDate": "Mar 28, 2025",
+    "releaseDateISO": "2025-03-28"
   },
   {
     "rank": 194,
@@ -2615,7 +2801,8 @@ const ALBUMS = [
     "genre2": "Pop Punk",
     "duration": "0:35:29",
     "favoriteSong": "dead end friend",
-    "releaseDate": "Aug 9, 2024"
+    "releaseDate": "Aug 9, 2024",
+    "releaseDateISO": "2024-08-09"
   },
   {
     "rank": 195,
@@ -2629,7 +2816,8 @@ const ALBUMS = [
     "genre2": "Alternative",
     "duration": "0:23:16",
     "favoriteSong": "I'll Be Fine",
-    "releaseDate": "Nov 15, 2024"
+    "releaseDate": "Nov 15, 2024",
+    "releaseDateISO": "2024-11-15"
   },
   {
     "rank": 196,
@@ -2643,7 +2831,8 @@ const ALBUMS = [
     "genre2": "",
     "duration": "0:43:38",
     "favoriteSong": "Most Wanted Man",
-    "releaseDate": "Mar 28, 2025"
+    "releaseDate": "Mar 28, 2025",
+    "releaseDateISO": "2025-03-28"
   },
   {
     "rank": 197,
@@ -2657,7 +2846,8 @@ const ALBUMS = [
     "genre2": "Metalcore",
     "duration": "0:36:25",
     "favoriteSong": "New Best Friend",
-    "releaseDate": "Jun 7, 2025"
+    "releaseDate": "Jun 7, 2025",
+    "releaseDateISO": "2025-06-07"
   },
   {
     "rank": 198,
@@ -2671,7 +2861,8 @@ const ALBUMS = [
     "genre2": "Country",
     "duration": "1:03:00",
     "favoriteSong": "The Great American Bar Scene",
-    "releaseDate": "Jul 4, 2024"
+    "releaseDate": "Jul 4, 2024",
+    "releaseDateISO": "2024-07-04"
   },
   {
     "rank": 199,
@@ -2685,7 +2876,8 @@ const ALBUMS = [
     "genre2": "Easycore",
     "duration": "0:39:57",
     "favoriteSong": "Big Al Dente",
-    "releaseDate": "Oct 24, 2025"
+    "releaseDate": "Oct 24, 2025",
+    "releaseDateISO": "2025-10-24"
   },
   {
     "rank": 200,
@@ -2699,7 +2891,8 @@ const ALBUMS = [
     "genre2": "Folk Pop",
     "duration": "0:36:00",
     "favoriteSong": "Evangeline",
-    "releaseDate": "Nov 7, 2025"
+    "releaseDate": "Nov 7, 2025",
+    "releaseDateISO": "2025-11-07"
   },
   {
     "rank": 201,
@@ -2713,7 +2906,8 @@ const ALBUMS = [
     "genre2": "Chamber Pop",
     "duration": "0:23:48",
     "favoriteSong": "",
-    "releaseDate": "Apr 15, 2022"
+    "releaseDate": "Apr 15, 2022",
+    "releaseDateISO": "2022-04-15"
   },
   {
     "rank": 202,
@@ -2727,7 +2921,8 @@ const ALBUMS = [
     "genre2": "Synthpop",
     "duration": "0:43:50",
     "favoriteSong": "BIRDS OF A FEATHER",
-    "releaseDate": "May 17, 2024"
+    "releaseDate": "May 17, 2024",
+    "releaseDateISO": "2024-05-17"
   },
   {
     "rank": 203,
@@ -2741,7 +2936,8 @@ const ALBUMS = [
     "genre2": "Dream Pop",
     "duration": "0:32:31",
     "favoriteSong": "The Lines",
-    "releaseDate": "May 15, 2024"
+    "releaseDate": "May 15, 2024",
+    "releaseDateISO": "2024-05-15"
   },
   {
     "rank": 204,
@@ -2755,7 +2951,8 @@ const ALBUMS = [
     "genre2": "Emo",
     "duration": "0:29:35",
     "favoriteSong": "Joyride The Pale Horse",
-    "releaseDate": "Apr 25, 2025"
+    "releaseDate": "Apr 25, 2025",
+    "releaseDateISO": "2025-04-25"
   },
   {
     "rank": 205,
@@ -2769,7 +2966,8 @@ const ALBUMS = [
     "genre2": "Britpop",
     "duration": "0:41:28",
     "favoriteSong": "Take A Bite",
-    "releaseDate": "Sep 9, 2024"
+    "releaseDate": "Sep 9, 2024",
+    "releaseDateISO": "2024-09-09"
   },
   {
     "rank": 206,
@@ -2783,7 +2981,8 @@ const ALBUMS = [
     "genre2": "Dreamgaze",
     "duration": "0:34:00",
     "favoriteSong": "Curve",
-    "releaseDate": "May 26, 2025"
+    "releaseDate": "May 26, 2025",
+    "releaseDateISO": "2025-05-26"
   },
   {
     "rank": 207,
@@ -2797,7 +2996,8 @@ const ALBUMS = [
     "genre2": "Americana",
     "duration": "0:46:53",
     "favoriteSong": "Ain't That Right",
-    "releaseDate": "Aug 8, 2025"
+    "releaseDate": "Aug 8, 2025",
+    "releaseDateISO": "2025-08-08"
   },
   {
     "rank": 208,
@@ -2811,7 +3011,8 @@ const ALBUMS = [
     "genre2": "Pop Rock",
     "duration": "0:34:11",
     "favoriteSong": "Did I Say Too Much",
-    "releaseDate": "Aug 29, 2025"
+    "releaseDate": "Aug 29, 2025",
+    "releaseDateISO": "2025-08-29"
   },
   {
     "rank": 209,
@@ -2825,7 +3026,8 @@ const ALBUMS = [
     "genre2": "Prog Rock",
     "duration": "0:55:13",
     "favoriteSong": "Midnight at McGuffy's",
-    "releaseDate": "Sep 12, 2025"
+    "releaseDate": "Sep 12, 2025",
+    "releaseDateISO": "2025-09-12"
   },
   {
     "rank": 210,
@@ -2839,7 +3041,8 @@ const ALBUMS = [
     "genre2": "Alternative",
     "duration": "0:35:05",
     "favoriteSong": "Etouffee",
-    "releaseDate": "May 24, 2024"
+    "releaseDate": "May 24, 2024",
+    "releaseDateISO": "2024-05-24"
   },
   {
     "rank": 211,
@@ -2853,7 +3056,8 @@ const ALBUMS = [
     "genre2": "Electropop",
     "duration": "0:47:18",
     "favoriteSong": "Next Semester",
-    "releaseDate": "May 24, 2024"
+    "releaseDate": "May 24, 2024",
+    "releaseDateISO": "2024-05-24"
   },
   {
     "rank": 212,
@@ -2867,7 +3071,8 @@ const ALBUMS = [
     "genre2": "Post-Rock",
     "duration": "0:44:24",
     "favoriteSong": "Captagon",
-    "releaseDate": "Aug 22, 2025"
+    "releaseDate": "Aug 22, 2025",
+    "releaseDateISO": "2025-08-22"
   },
   {
     "rank": 213,
@@ -2881,7 +3086,8 @@ const ALBUMS = [
     "genre2": "Nu-Metal",
     "duration": "0:41:46",
     "favoriteSong": "IGYEIH",
-    "releaseDate": "May 16, 2024"
+    "releaseDate": "May 16, 2024",
+    "releaseDateISO": "2024-05-16"
   },
   {
     "rank": 214,
@@ -2895,7 +3101,8 @@ const ALBUMS = [
     "genre2": "Shoegaze",
     "duration": "0:42:29",
     "favoriteSong": "my mind is a mountain",
-    "releaseDate": "Aug 22, 2025"
+    "releaseDate": "Aug 22, 2025",
+    "releaseDateISO": "2025-08-22"
   },
   {
     "rank": 217,
@@ -2909,7 +3116,8 @@ const ALBUMS = [
     "genre2": "Alt Rock",
     "duration": "0:43:30",
     "favoriteSong": "Swim Between Trees",
-    "releaseDate": "Jan 24, 2025"
+    "releaseDate": "Jan 24, 2025",
+    "releaseDateISO": "2025-01-24"
   },
   {
     "rank": 218,
@@ -2923,7 +3131,8 @@ const ALBUMS = [
     "genre2": "Prog Metal",
     "duration": "0:35:17",
     "favoriteSong": "Revelation",
-    "releaseDate": "Sep 6, 2024"
+    "releaseDate": "Sep 6, 2024",
+    "releaseDateISO": "2024-09-06"
   },
   {
     "rank": 219,
@@ -2937,7 +3146,8 @@ const ALBUMS = [
     "genre2": "Post-Rock",
     "duration": "0:42:53",
     "favoriteSong": "Glow",
-    "releaseDate": "Oct 11, 2024"
+    "releaseDate": "Oct 11, 2024",
+    "releaseDateISO": "2024-10-11"
   },
   {
     "rank": 221,
@@ -2951,7 +3161,8 @@ const ALBUMS = [
     "genre2": "Easycore",
     "duration": "0:36:54",
     "favoriteSong": "Light Blue",
-    "releaseDate": "Nov 8, 2024"
+    "releaseDate": "Nov 8, 2024",
+    "releaseDateISO": "2024-11-08"
   },
   {
     "rank": 222,
@@ -2965,7 +3176,8 @@ const ALBUMS = [
     "genre2": "Post-Hardcore",
     "duration": "0:35:02",
     "favoriteSong": "Future Myopia",
-    "releaseDate": "Oct 25, 2024"
+    "releaseDate": "Oct 25, 2024",
+    "releaseDateISO": "2024-10-25"
   },
   {
     "rank": 223,
@@ -2979,6 +3191,7 @@ const ALBUMS = [
     "genre2": "Symphonic Pop",
     "duration": "0:52:48",
     "favoriteSong": "I'm Not Getting Better",
-    "releaseDate": "Oct 30, 2024"
+    "releaseDate": "Oct 30, 2024",
+    "releaseDateISO": "2024-10-30"
   }
 ];
