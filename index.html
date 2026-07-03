@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My All-Time Albums</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1>My All-Time Albums</h1>
+    <p class="subtitle">A ranked list of my favorite albums, built from my own scoring system.</p>
+  </header>
+
+  <section class="stats-bar" id="stats-bar">
+    <!-- Filled in by script.js -->
+  </section>
+
+  <section class="podium" id="podium">
+    <!-- Top 3 albums, filled in by script.js -->
+  </section>
+
+  <section class="controls">
+    <input type="text" id="search-input" placeholder="Search artist or album...">
+
+    <select id="genre-filter">
+      <option value="">All genres</option>
+    </select>
+
+    <select id="year-filter">
+      <option value="">All years</option>
+    </select>
+
+    <select id="sort-select">
+      <option value="rank">Sort: Rank (best first)</option>
+      <option value="score-desc">Sort: Score (high to low)</option>
+      <option value="year-desc">Sort: Year (newest first)</option>
+      <option value="year-asc">Sort: Year (oldest first)</option>
+      <option value="artist">Sort: Artist (A-Z)</option>
+    </select>
+  </section>
+
+  <p class="results-count" id="results-count"></p>
+
+  <main class="album-grid" id="album-grid">
+    <!-- Album cards get inserted here by script.js -->
+  </main>
+
+  <p class="empty-message" id="empty-message" hidden>No albums match your search.</p>
+
+  <footer class="site-footer">
+    <p>Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="albums.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
