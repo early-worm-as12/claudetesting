@@ -129,6 +129,172 @@ body {
   font-size: 0.9rem;
 }
 
+/* ---------- Insights / charts ---------- */
+
+.insights {
+  max-width: 1200px;
+  margin: 0 auto 2.5rem;
+  padding: 0 1.5rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+
+.chart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.chart-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.chart-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.chart-card-header h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.table-toggle {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  border-radius: 6px;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.table-toggle:hover,
+.table-toggle:focus-visible {
+  color: var(--text);
+  border-color: var(--accent-2);
+}
+
+.chart-body {
+  width: 100%;
+}
+
+.chart-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+
+.chart-bar {
+  fill: var(--accent-2);
+  cursor: pointer;
+}
+
+.chart-bar:hover,
+.chart-bar.is-hovered,
+.chart-bar:focus-visible {
+  fill: color-mix(in srgb, var(--accent-2) 80%, white);
+  outline: none;
+}
+
+.chart-baseline {
+  stroke: var(--border);
+  stroke-width: 1;
+}
+
+.chart-label {
+  fill: var(--text-dim);
+  font-size: 9px;
+}
+
+.chart-value-label {
+  fill: var(--text);
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.chart-line {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.chart-dot {
+  fill: var(--accent);
+}
+
+.chart-dot-ring {
+  fill: var(--bg-card);
+}
+
+.chart-crosshair {
+  stroke: var(--border);
+  stroke-width: 1;
+}
+
+.chart-crosshair[hidden] {
+  display: none;
+}
+
+.chart-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.chart-table th,
+.chart-table td {
+  text-align: left;
+  padding: 0.4rem 0.5rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-dim);
+}
+
+.chart-table th {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.chart-tooltip {
+  position: fixed;
+  z-index: 100;
+  background: #0b0a10;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.8rem;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.chart-tooltip strong {
+  color: var(--text);
+}
+
+.chart-tooltip span {
+  color: var(--text-dim);
+}
+
+.chart-tooltip[hidden] {
+  display: none;
+}
+
 /* ---------- Controls ---------- */
 
 .controls {
@@ -190,6 +356,22 @@ body {
 .album-card:hover {
   background: var(--bg-card-hover);
   transform: translateY(-2px);
+}
+
+.album-card {
+  cursor: pointer;
+}
+
+.album-card:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
+}
+
+.hint {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  margin: -0.5rem 0 1.5rem;
 }
 
 .card-top {
@@ -265,4 +447,138 @@ body {
   color: var(--text-dim);
   font-size: 0.85rem;
   padding: 2rem 1rem 3rem;
+}
+
+/* ---------- Detail modal ---------- */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(6, 5, 10, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  z-index: 200;
+}
+
+.modal-overlay[hidden] {
+  display: none;
+}
+
+.modal {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.75rem;
+  max-width: 460px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: transparent;
+  border: none;
+  color: var(--text-dim);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+
+.modal-close:hover,
+.modal-close:focus-visible {
+  color: var(--text);
+  background: var(--bg-card-hover);
+  outline: none;
+}
+
+.modal-rank {
+  color: var(--accent-2);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.modal-album {
+  margin: 0.3rem 0 0.1rem;
+  font-size: 1.5rem;
+}
+
+.modal-artist {
+  color: var(--text-dim);
+  margin: 0 0 0.9rem;
+}
+
+.modal-tags {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.modal-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin: 0 0 1.25rem;
+}
+
+.modal-meta-grid dt {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.modal-meta-grid dd {
+  margin: 0.2rem 0 0;
+  font-weight: 600;
+}
+
+.modal-meter-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-bottom: 1.25rem;
+}
+
+.modal-meter-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+}
+
+.modal-meter-value {
+  color: var(--text-dim);
+  font-weight: 600;
+}
+
+.modal-meter-track {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 999px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.modal-meter-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-2), var(--accent));
+  border-radius: 999px;
+}
+
+.modal-favorite {
+  font-size: 0.9rem;
+  color: var(--text-dim);
+  margin: 0;
+}
+
+.modal-favorite strong {
+  color: var(--text);
 }

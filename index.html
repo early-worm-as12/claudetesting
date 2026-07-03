@@ -21,6 +21,16 @@
     <!-- Top 3 albums, filled in by script.js -->
   </section>
 
+  <section class="insights">
+    <h2 class="section-title">Insights</h2>
+    <div class="chart-grid">
+      <div class="chart-card" id="chart-by-year"></div>
+      <div class="chart-card" id="chart-top-genres"></div>
+      <div class="chart-card" id="chart-top-artists"></div>
+      <div class="chart-card" id="chart-score-trend"></div>
+    </div>
+  </section>
+
   <section class="controls">
     <input type="text" id="search-input" placeholder="Search artist or album...">
 
@@ -42,6 +52,7 @@
   </section>
 
   <p class="results-count" id="results-count"></p>
+  <p class="hint">Click any album for the full breakdown.</p>
 
   <main class="album-grid" id="album-grid">
     <!-- Album cards get inserted here by script.js -->
@@ -53,7 +64,41 @@
     <p>Built with HTML, CSS, and JavaScript.</p>
   </footer>
 
+  <div class="modal-overlay" id="modal-overlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-album-title" tabindex="-1">
+      <button class="modal-close" id="modal-close" aria-label="Close details">&times;</button>
+
+      <div class="modal-rank" id="modal-rank"></div>
+      <h2 class="modal-album" id="modal-album-title"></h2>
+      <p class="modal-artist" id="modal-artist"></p>
+
+      <div class="modal-tags" id="modal-tags"></div>
+
+      <dl class="modal-meta-grid" id="modal-meta-grid"></dl>
+
+      <div class="modal-meter-row">
+        <div class="modal-meter" id="modal-meter-score">
+          <div class="modal-meter-label">
+            <span>Overall score</span>
+            <span class="modal-meter-value" id="modal-score-value"></span>
+          </div>
+          <div class="modal-meter-track"><div class="modal-meter-fill" id="modal-score-fill"></div></div>
+        </div>
+        <div class="modal-meter" id="modal-meter-personal">
+          <div class="modal-meter-label">
+            <span>Personal rating</span>
+            <span class="modal-meter-value" id="modal-personal-value"></span>
+          </div>
+          <div class="modal-meter-track"><div class="modal-meter-fill" id="modal-personal-fill"></div></div>
+        </div>
+      </div>
+
+      <p class="modal-favorite" id="modal-favorite"></p>
+    </div>
+  </div>
+
   <script src="albums.js"></script>
+  <script src="charts.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

@@ -110,7 +110,7 @@ function getFilteredAlbums() {
 
 function albumCardHTML(a) {
   return `
-    <article class="album-card">
+    <article class="album-card" data-rank="${a.rank}" tabindex="0" role="button" aria-haspopup="dialog">
       <div class="card-top">
         <span class="card-rank">#${a.rank}</span>
         <span class="card-score">${a.score.toFixed(1)}</span>
@@ -133,6 +133,145 @@ function render() {
   grid.innerHTML = albums.map(albumCardHTML).join("");
 }
 
+// ---------- Detail modal ----------
+
+const modalOverlay = document.getElementById("modal-overlay");
+const modalEl = modalOverlay.querySelector(".modal");
+const modalClose = document.getElementById("modal-close");
+let lastFocusedElement = null;
+
+function formatDuration(duration) {
+  // Durations are stored as "H:MM:SS".
+  const parts = (duration || "").split(":").map(Number);
+  if (parts.length !== 3 || parts.some(Number.isNaN)) return duration || "—";
+  const [h, m] = parts;
+  const totalMinutes = h * 60 + m;
+  return `${totalMinutes} min`;
+}
+
+function openModal(album) {
+  document.getElementById("modal-rank").textContent = `#${album.rank} of ${ALBUMS.length}`;
+  document.getElementById("modal-album-title").textContent = album.album;
+  document.getElementById("modal-artist").textContent = album.artist;
+
+  document.getElementById("modal-tags").innerHTML = [
+    `<span class="tag year">${album.year}</span>`,
+    album.genre1 ? `<span class="tag">${album.genre1}</span>` : "",
+    album.genre2 ? `<span class="tag">${album.genre2}</span>` : "",
+  ].join("");
+
+  const metaItems = [
+    ["Released", album.releaseDate || String(album.year)],
+    ["Track count", album.trackCount ?? "—"],
+    ["Duration", formatDuration(album.duration)],
+  ];
+  document.getElementById("modal-meta-grid").innerHTML = metaItems
+    .map(([label, value]) => `<div><dt>${label}</dt><dd>${value}</dd></div>`)
+    .join("");
+
+  document.getElementById("modal-score-value").textContent = `${album.score.toFixed(1)} / 100`;
+  document.getElementById("modal-score-fill").style.width = `${album.score}%`;
+
+  const personal = album.personalScore ?? 0;
+  document.getElementById("modal-personal-value").textContent = `${personal.toFixed(1)} / 10`;
+  document.getElementById("modal-personal-fill").style.width = `${(personal / 10) * 100}%`;
+
+  document.getElementById("modal-favorite").innerHTML =
+    `Favorite track: <strong>${album.favoriteSong || "—"}</strong>`;
+
+  lastFocusedElement = document.activeElement;
+  modalOverlay.hidden = false;
+  modalClose.focus();
+  document.addEventListener("keydown", onModalKeydown);
+}
+
+function closeModal() {
+  modalOverlay.hidden = true;
+  document.removeEventListener("keydown", onModalKeydown);
+  if (lastFocusedElement) lastFocusedElement.focus();
+}
+
+function onModalKeydown(evt) {
+  if (evt.key === "Escape") closeModal();
+}
+
+function albumCardFromEvent(evt) {
+  const card = evt.target.closest(".album-card");
+  if (!card) return null;
+  const rank = Number(card.dataset.rank);
+  return ALBUMS.find((a) => a.rank === rank) || null;
+}
+
+grid.addEventListener("click", (evt) => {
+  const album = albumCardFromEvent(evt);
+  if (album) openModal(album);
+});
+
+grid.addEventListener("keydown", (evt) => {
+  if (evt.key !== "Enter" && evt.key !== " ") return;
+  const album = albumCardFromEvent(evt);
+  if (album) {
+    evt.preventDefault();
+    openModal(album);
+  }
+});
+
+modalClose.addEventListener("click", closeModal);
+modalOverlay.addEventListener("click", (evt) => {
+  if (evt.target === modalOverlay) closeModal();
+});
+
+// ---------- Insights charts ----------
+
+function renderInsights() {
+  const byYearMap = new Map();
+  const genreMap = new Map();
+  const artistMap = new Map();
+  const scoreSumByYear = new Map();
+  const scoreCountByYear = new Map();
+
+  for (const a of ALBUMS) {
+    byYearMap.set(a.year, (byYearMap.get(a.year) || 0) + 1);
+    if (a.genre1) genreMap.set(a.genre1, (genreMap.get(a.genre1) || 0) + 1);
+    artistMap.set(a.artist, (artistMap.get(a.artist) || 0) + 1);
+    scoreSumByYear.set(a.year, (scoreSumByYear.get(a.year) || 0) + a.score);
+    scoreCountByYear.set(a.year, (scoreCountByYear.get(a.year) || 0) + 1);
+  }
+
+  const years = [...byYearMap.keys()].sort((a, b) => a - b);
+
+  renderVerticalBarChart(document.getElementById("chart-by-year"), {
+    title: "Albums by release year",
+    items: years.map((y) => ({ label: String(y), value: byYearMap.get(y) })),
+  });
+
+  const topGenres = [...genreMap.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 8)
+    .map(([label, value]) => ({ label, value }));
+  renderHorizontalBarChart(document.getElementById("chart-top-genres"), {
+    title: "Top genres",
+    items: topGenres,
+  });
+
+  const topArtists = [...artistMap.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 8)
+    .map(([label, value]) => ({ label, value }));
+  renderHorizontalBarChart(document.getElementById("chart-top-artists"), {
+    title: "Most-ranked artists",
+    items: topArtists,
+  });
+
+  renderLineChart(document.getElementById("chart-score-trend"), {
+    title: "Average score by year",
+    items: years.map((y) => ({
+      label: String(y),
+      value: scoreSumByYear.get(y) / scoreCountByYear.get(y),
+    })),
+  });
+}
+
 // ---------- Wire up events ----------
 
 searchInput.addEventListener("input", render);
@@ -143,4 +282,5 @@ sortSelect.addEventListener("change", render);
 populateStats();
 populateFilters();
 renderPodium();
+renderInsights();
 render();
