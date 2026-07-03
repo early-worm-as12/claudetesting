@@ -559,7 +559,14 @@ body {
 
 .modal-artist {
   color: var(--text-dim);
-  margin: 0 0 0.9rem;
+  margin: 0;
+}
+
+.modal-tagline {
+  font-style: italic;
+  color: var(--accent-2);
+  font-size: 0.85rem;
+  margin: 0.3rem 0 0.9rem;
 }
 
 .modal-tags {
@@ -628,4 +635,58 @@ body {
 
 .modal-favorite strong {
   color: var(--text);
+}
+
+.modal-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1.25rem 0 1rem;
+}
+
+.modal-review-heading {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  margin: 0 0 0.75rem;
+}
+
+.modal-review-body p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin: 0 0 0.75rem;
+}
+
+.modal-review-body p:last-child {
+  margin-bottom: 0;
+}
+
+.modal-pull-quote {
+  margin: 1rem 0;
+  padding: 0.6rem 0 0.6rem 0.9rem;
+  border-left: 3px solid var(--accent);
+  font-style: italic;
+  color: var(--text);
+  font-size: 0.92rem;
+}
+
+.modal-ffo {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+}
+
+.ffo-label {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-right: 0.2rem;
+}
+
+.ffo-tag {
+  background: rgba(255, 107, 129, 0.12);
+  color: var(--accent);
 }

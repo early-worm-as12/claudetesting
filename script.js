@@ -179,6 +179,37 @@ function openModal(album) {
   document.getElementById("modal-favorite").innerHTML =
     `Favorite track: <strong>${album.favoriteSong || "—"}</strong>`;
 
+  const taglineEl = document.getElementById("modal-tagline");
+  const reviewEl = document.getElementById("modal-review");
+  const review = typeof REVIEWS !== "undefined" ? REVIEWS[String(album.rank)] : null;
+
+  if (review) {
+    taglineEl.textContent = review.tagline;
+    taglineEl.hidden = false;
+
+    document.getElementById("modal-review-body").innerHTML = review.paragraphs
+      .map((p) => `<p>${p}</p>`)
+      .join("");
+
+    const pullQuoteEl = document.getElementById("modal-pull-quote");
+    if (review.pullQuote) {
+      pullQuoteEl.textContent = review.pullQuote;
+      pullQuoteEl.hidden = false;
+    } else {
+      pullQuoteEl.hidden = true;
+    }
+
+    document.getElementById("modal-ffo").innerHTML = review.ffo && review.ffo.length
+      ? `<span class="ffo-label">For fans of</span>` +
+        review.ffo.map((a) => `<span class="tag ffo-tag">${a}</span>`).join("")
+      : "";
+
+    reviewEl.hidden = false;
+  } else {
+    taglineEl.hidden = true;
+    reviewEl.hidden = true;
+  }
+
   lastFocusedElement = document.activeElement;
   modalOverlay.hidden = false;
   modalClose.focus();
